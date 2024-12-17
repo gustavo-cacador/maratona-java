@@ -8,12 +8,15 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import academy.devdojo.maratonajava.javacore.Xserializacao.dominio.Aluno;
+import academy.devdojo.maratonajava.javacore.Xserializacao.dominio.Turma;
 
 public class SerializacaoTest01 {
     public static void main(String[] args) {
         
         Aluno aluno = new Aluno(1L, "Gustavo Caçador", "21782712");
-        //serializar(aluno);
+        Turma turma = new Turma("Maratona Java Virado no Jiraya em Breve Ricos");
+        aluno.setTurma(turma);
+        serializar(aluno);
         desserializar();
     }
 
