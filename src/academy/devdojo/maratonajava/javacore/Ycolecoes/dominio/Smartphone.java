@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Ycolecoes.test.dominio;
+package academy.devdojo.maratonajava.javacore.Ycolecoes.dominio;
 
 public class Smartphone {
 
@@ -26,5 +26,4 @@ public class Smartphone {
         this.marca = marca;
     }
 
-    
 }
