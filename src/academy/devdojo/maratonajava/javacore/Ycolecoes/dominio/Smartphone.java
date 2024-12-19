@@ -4,7 +4,7 @@ public class Smartphone {
 
     private String serialNumber;
     private String marca;
-    
+
     public Smartphone(String serialNumber, String marca) {
         this.serialNumber = serialNumber;
         this.marca = marca;
@@ -25,5 +25,6 @@ public class Smartphone {
     public void setMarca(String marca) {
         this.marca = marca;
     }
-
+    
+    
 }
