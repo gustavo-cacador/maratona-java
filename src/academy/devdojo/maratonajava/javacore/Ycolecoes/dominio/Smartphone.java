@@ -25,6 +25,4 @@ public class Smartphone {
     public void setMarca(String marca) {
         this.marca = marca;
     }
-    
-    
 }
