@@ -20,6 +20,12 @@ public class Smartphone {
         return serialNumber != null && marca != null && serialNumber.equals(smartphone.serialNumber) && marca.equals(smartphone.marca); // verifica se todos os atributos são iguais ou não
     }
 
+    @Override
+    public int hashCode() {
+        return serialNumber == null ? 0 : this.serialNumber.hashCode();
+    }
+
+
     public String getSerialNumber() {
         return serialNumber;
     }
