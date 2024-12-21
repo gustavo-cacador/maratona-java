@@ -12,6 +12,8 @@ public class ListTest01 {
         nomes.add("Ronchi");
         nomes2.add("Gustavo");
         nomes2.add("Caçador");
+        
+        System.out.println(nomes.remove("gustavo")); // vai retornar falso, pois existe "Gustavo" e n "gustavo", logo n vai remover
 
         nomes.addAll(nomes2);
 
