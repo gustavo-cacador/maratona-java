@@ -86,12 +86,18 @@ public class Time implements Comparable<Time>{
         // negativo se o this < outroTime
         // se this == outroTime, return 0
         // positivo se this > outroTime
-        if(this.id < outroTime.getId()) {
+
+        /* if(this.id < outroTime.getId()) {
             return -1;
         } else if(this.id.equals(outroTime.getId())) {
             return 0;
         } else {
             return 1;
-        }
+        } */
+
+        return this.nome.compareTo(outroTime.getNome());
+        //return Double.compare(preco, outroTime.getPreco());
+        //return Double.valueOf(preco).compareTo(outroTime.getPreco());
+        //return this.id.compareTo(outroTime.getId());
     }
 }
