@@ -34,6 +34,8 @@ public class ListaArrayConversaoTest01 {
         numerosList.add(15);
         System.out.println(numerosList);
 
+        // Criando uma List imutável de Strings
         List<String> strings = Arrays.asList("1", "2");
+
     }
 }
