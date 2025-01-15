@@ -10,7 +10,6 @@ public class Smartphone {
         this.marca = marca;
     }
 
-    
     @Override
     public boolean equals(Object obj) {
         if(obj == null) return false;
@@ -42,6 +41,4 @@ public class Smartphone {
     public void setMarca(String marca) {
         this.marca = marca;
     }
-
-    
 }

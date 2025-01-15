@@ -22,6 +22,7 @@ public class Time implements Comparable<Time>{
         this.quantidade = quantidade;
     }
 
+    // O equals compara dois objetos fazendo que não se dupliquem
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
@@ -91,6 +92,7 @@ public class Time implements Comparable<Time>{
         } */
 
         return this.nome.compareTo(outroTime.getNome());
+        //return this.id.compareTo(outroTime.getId());
         //return Double.compare(preco, outroTime.getPreco());
         //return Double.valueOf(preco).compareTo(outroTime.getPreco());
         //return this.id.compareTo(outroTime.getId());
