@@ -25,9 +25,9 @@ public class MapTest03 {
         clienteTimeMap.put(cliente1, timeCliente1List);
         clienteTimeMap.put(cliente2, timeCliente2List);
 
-        for(Map.Entry<Cliente, List<Time>> entry : clienteTimeMap.entrySet()) {
+        for (Map.Entry<Cliente, List<Time>> entry : clienteTimeMap.entrySet()) {
             System.out.println(entry.getKey().getNome() + ", comprou: ");
-            for(Time time : entry.getValue()) {
+            for (Time time : entry.getValue()) {
                 System.out.println(time.getNome());
             }
         }
